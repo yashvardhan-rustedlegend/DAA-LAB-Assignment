@@ -18,6 +18,9 @@ int jumpSearch(int array[],int size,int key){
 }
 int main()
 {
+	int t;
+	cin>>t;
+	while(t--){
 	int n,key,loc;
 	cout<<"Enter number of items: ";
 	cin>>n;
@@ -33,5 +36,5 @@ int main()
 	if((loc= jumpSearch(arr,n,key)) >=0)
 	cout<<"Position"<<loc+1<<endl;
 	else
-	cout<<"Not found";
+	cout<<"Not found";}
 }
