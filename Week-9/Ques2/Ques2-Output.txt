@@ -1,0 +1,6 @@
+Item-Weight
+10-2
+3-1
+6-6
+5-1
+Maximum value: 23.375
